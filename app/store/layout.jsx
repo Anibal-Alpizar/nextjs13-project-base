@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Offcial Store",
+
+};
+
 export default function StoreLayout({ children }) {
   return (
     <>
