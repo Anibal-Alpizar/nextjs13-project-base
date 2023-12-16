@@ -1,10 +1,13 @@
 import Link from "next/link";
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <div>
-      <nav>
-        <h1>Navbar</h1>
+      <nav className="navbar py-5">
+        <Link href="/">
+          <h1 className="text-3xl font-bold">Navbar</h1>
+        </Link>
         <ul>
           <li>
             <Link href="/">Home</Link>
